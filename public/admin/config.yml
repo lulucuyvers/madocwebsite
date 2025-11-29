@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+name: "projects"
+    label: "Projecten"
+    folder: "src/content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+{ label: "Titel", name: "title", widget: "string" }
+{ label: "Beschrijving", name: "description", widget: "text" }
+{ label: "Hoofdbeeld", name: "mainImage", widget: "image" }
+label: "Extra Beelden"
+        name: "extraImages"
+        widget: "list"
+        max: 5
+        field: { label: "Beeld", name: "image", widget: "image" }
+{ label: "Publicatiedatum", name: "date", widget: "datetime" }
