@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+   name: github
+   repo: lulucuyvers/madocwebsite
   branch: main
 
 media_folder: "public/images/uploads"
