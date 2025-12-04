@@ -1,13 +1,12 @@
 ---
-title: "De Poorten — Stam Gent"
-date: 2024-03-15
-featured_image: "/uploads/de-poorten-main.jpg"
+title: De Poorten
+description: test project
+mainImage: /images/uploads/de-poorten.jpg
 gallery:
-"/uploads/de-poorten-1.jpg"
-"/uploads/de-poorten-2.jpg"
-"/uploads/de-poorten-3.jpg"
-"/uploads/de-poorten-4.jpg"
-"/uploads/de-poorten-5.jpg"
+/images/uploads/de-poorten-1.jpg
+/images/uploads/de-poorten-2.jpg
+/images/uploads/de-poorten-3.jpg
+/images/uploads/de-poorten-4.jpg
+/images/uploads/de-poorten-5.jpg
+date: 2024-12-04T13:21:55.074Z
 ---
-
-Renovatie en herbestemming van historisch pand in het centrum van Gent. Het project combineert moderne architectuur met respect voor het erfgoed.
