@@ -11,7 +11,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "projects"
     label: "Projecten"
-    folder: "src/content/projects"
+    folder: "content/projects"
     create: true
     slug: "{{slug}}"
     fields:
@@ -24,10 +24,9 @@ collections:
       - label: "Hoofdbeeld"
         name: "mainImage"
         widget: "image"
-      - label: "Extra Beelden"
-        name: "extraImages"
+      - label: "Galerij"
+        name: "gallery"
         widget: "list"
-        max: 5
         field:
           label: "Beeld"
           name: "image"
