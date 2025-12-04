@@ -1,4 +1,4 @@
-import logo from 'figma:asset/8f51625c5ca59940f6672c548e557e64eed153aa.png';
+import logo from '../assets/8f51625c5ca59940f6672c548e557e64eed153aa.png';
 
 export function ContactInfo() {
   return (

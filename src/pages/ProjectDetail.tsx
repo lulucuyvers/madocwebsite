@@ -1,5 +1,5 @@
-import image_4d66d5e44a1380364199ada1685f52ca640a3b03 from 'figma:asset/4d66d5e44a1380364199ada1685f52ca640a3b03.png';
-import image_72039f5de393e436aa473964b08b59d629085268 from 'figma:asset/72039f5de393e436aa473964b08b59d629085268.png';
+import image_4d66d5e44a1380364199ada1685f52ca640a3b03 from '../assets/4d66d5e44a1380364199ada1685f52ca640a3b03.png';
+import image_72039f5de393e436aa473964b08b59d629085268 from '../assets/72039f5de393e436aa473964b08b59d629085268.png';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useRef, useState, useEffect } from 'react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';

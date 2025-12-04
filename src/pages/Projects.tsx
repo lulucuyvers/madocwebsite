@@ -1,4 +1,4 @@
-import image_fdbb1cacdc29a37ef2a7abf9f71fff65baf60f45 from 'figma:asset/fdbb1cacdc29a37ef2a7abf9f71fff65baf60f45.png';
+import image_fdbb1cacdc29a37ef2a7abf9f71fff65baf60f45 from '../assets/fdbb1cacdc29a37ef2a7abf9f71fff65baf60f45.png';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
