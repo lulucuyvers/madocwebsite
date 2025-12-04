@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import { getAllProjects, type Project } from '../utils/projectLoader';
+import { loadProjects, type Project } from '../utils/projectLoader';
 
 export function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    getAllProjects().then(setProjects);
+    loadProjects().then(setProjects);
   }, []);
 
   return (
