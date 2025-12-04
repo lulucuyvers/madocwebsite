@@ -30,3 +30,12 @@ export async function loadProjects(): Promise<Project[]> {
   
   return projects.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
+
+export async function getProjectBySlug(slug: string): Promise<Project | null> {
+  const projects = await loadProjects();
+  return projects.find(p => p.slug === slug) || null;
+}
+
+export function getProjectImages(project: Project): string[] {
+  return [project.mainImage, ...project.gallery];
+}
